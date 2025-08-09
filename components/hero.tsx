@@ -44,7 +44,7 @@ export function Hero() {
               </Link>
             </Button>
             <Button variant="ghost" size="icon" asChild>
-              <Link href="mailto:cat@example.com">
+              <Link href="mailto:project@catalino.me">
                 <Mail className="h-5 w-5" />
                 <span className="sr-only">Email</span>
               </Link>

@@ -15,7 +15,7 @@ const sampleProjects = [
     description:
       "Comprehensive analysis of online retail data to identify sales trends, customer behavior patterns, and revenue optimization opportunities.",
     technologies: ["Python", "Pandas", "Matplotlib", "SQL"],
-    image: "/placeholder.svg?height=200&width=400",
+    image: "/ecommerce-sales-analysis-chart.png",
     liveUrl: "https://example.com/project1",
     githubUrl: "https://github.com/example/project1",
   },
@@ -25,7 +25,7 @@ const sampleProjects = [
     description:
       "Machine learning model to predict customer churn using historical data, achieving 85% accuracy with feature importance analysis.",
     technologies: ["Python", "Scikit-learn", "Tableau", "PostgreSQL"],
-    image: "/placeholder.svg?height=200&width=400",
+    image: "/customer-churn-prediction-concept.png",
     liveUrl: "https://example.com/project2",
     githubUrl: "https://github.com/example/project2",
   },
@@ -35,7 +35,7 @@ const sampleProjects = [
     description:
       "Interactive Power BI dashboard for financial KPI tracking, budget analysis, and performance monitoring across multiple departments.",
     technologies: ["Power BI", "DAX", "Excel", "SQL Server"],
-    image: "/placeholder.svg?height=200&width=400",
+    image: "/financial-dashboard-kpis.png",
     liveUrl: "https://example.com/project3",
     githubUrl: "https://github.com/example/project3",
   },
@@ -49,7 +49,7 @@ export function Projects() {
     const project = {
       ...newProject,
       id: projects.length + 1,
-      image: "/placeholder.svg?height=200&width=400",
+      image: "/data-project-thumbnail.png",
     }
     setProjects([...projects, project])
   }
