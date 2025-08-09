@@ -13,9 +13,9 @@ const sampleProjects = [
     id: 1,
     title: "E-commerce Sales Analysis",
     description:
-      "Comprehensive analysis of online retail data to identify sales trends, customer behavior patterns, and revenue optimization opportunities.",
-    technologies: ["Python", "Pandas", "Matplotlib", "SQL"],
-    image: "/ecommerce-sales-analysis-chart.png",
+      "Comprehensive analysis of online retail data to identify sales trends, customer behavior patterns, and revenue optimization opportunities using advanced analytics.",
+    technologies: ["Python", "Pandas", "Matplotlib", "SQL", "Tableau"],
+    image: "/ecommerce-sales-dashboard.png",
     liveUrl: "https://example.com/project1",
     githubUrl: "https://github.com/example/project1",
   },
@@ -23,21 +23,31 @@ const sampleProjects = [
     id: 2,
     title: "Customer Churn Prediction",
     description:
-      "Machine learning model to predict customer churn using historical data, achieving 85% accuracy with feature importance analysis.",
-    technologies: ["Python", "Scikit-learn", "Tableau", "PostgreSQL"],
-    image: "/customer-churn-prediction-concept.png",
+      "Machine learning model to predict customer churn using historical data, achieving 85% accuracy with feature importance analysis and actionable insights.",
+    technologies: ["Python", "Scikit-learn", "Tableau", "PostgreSQL", "XGBoost"],
+    image: "/customer-churn-model.png",
     liveUrl: "https://example.com/project2",
     githubUrl: "https://github.com/example/project2",
   },
   {
     id: 3,
-    title: "Financial Dashboard",
+    title: "Financial KPI Dashboard",
     description:
-      "Interactive Power BI dashboard for financial KPI tracking, budget analysis, and performance monitoring across multiple departments.",
-    technologies: ["Power BI", "DAX", "Excel", "SQL Server"],
-    image: "/financial-dashboard-kpis.png",
+      "Interactive Power BI dashboard for financial KPI tracking, budget analysis, and performance monitoring across multiple departments with real-time updates.",
+    technologies: ["Power BI", "DAX", "Excel", "SQL Server", "Azure"],
+    image: "/financial-kpi-dashboard.png",
     liveUrl: "https://example.com/project3",
     githubUrl: "https://github.com/example/project3",
+  },
+  {
+    id: 4,
+    title: "Exploratory Data Analysis",
+    description:
+      "Comprehensive EDA framework to explore data structure, identify key characteristics, and uncover potential relationships using statistical methods and visualizations.",
+    technologies: ["NumPy", "Pandas", "Plotly", "Seaborn", "Jupyter"],
+    image: "/data-analysis-dashboard.png",
+    liveUrl: "https://example.com/project4",
+    githubUrl: "https://github.com/example/project4",
   },
 ]
 
@@ -69,22 +79,23 @@ export function Projects() {
         </div>
         <div className="mx-auto grid max-w-6xl gap-6 py-12 lg:grid-cols-2 xl:grid-cols-3">
           {projects.map((project) => (
-            <Card key={project.id} className="overflow-hidden">
-              <div className="aspect-video bg-gray-100 dark:bg-gray-700">
+            <Card key={project.id} className="overflow-hidden hover:shadow-lg transition-shadow duration-300">
+              <div className="aspect-video bg-gray-100 dark:bg-gray-700 overflow-hidden">
                 <img
                   src={project.image || "/placeholder.svg"}
-                  alt={project.title}
-                  className="h-full w-full object-cover"
+                  alt={`${project.title} - Data Analysis Dashboard`}
+                  className="h-full w-full object-cover hover:scale-105 transition-transform duration-300"
+                  loading="lazy"
                 />
               </div>
               <CardHeader>
                 <CardTitle className="line-clamp-1">{project.title}</CardTitle>
-                <CardDescription className="line-clamp-2">{project.description}</CardDescription>
+                <CardDescription className="line-clamp-3">{project.description}</CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="flex flex-wrap gap-2">
                   {project.technologies.map((tech) => (
-                    <Badge key={tech} variant="secondary">
+                    <Badge key={tech} variant="secondary" className="text-xs">
                       {tech}
                     </Badge>
                   ))}
@@ -92,7 +103,7 @@ export function Projects() {
                 <div className="flex space-x-2">
                   {project.liveUrl && (
                     <Button size="sm" asChild>
-                      <Link href={project.liveUrl} target="_blank">
+                      <Link href={project.liveUrl} target="_blank" rel="noopener noreferrer">
                         <ExternalLink className="mr-2 h-4 w-4" />
                         View Live
                       </Link>
@@ -100,7 +111,7 @@ export function Projects() {
                   )}
                   {project.githubUrl && (
                     <Button size="sm" variant="outline" asChild>
-                      <Link href={project.githubUrl} target="_blank">
+                      <Link href={project.githubUrl} target="_blank" rel="noopener noreferrer">
                         <Github className="mr-2 h-4 w-4" />
                         Code
                       </Link>

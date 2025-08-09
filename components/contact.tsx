@@ -46,21 +46,21 @@ export function Contact() {
                 <Mail className="h-5 w-5 text-blue-600" />
                 <div>
                   <p className="font-medium">Email</p>
-                  <p className="text-gray-500">hello@catalino.me</p>
+                  <p className="text-gray-500">projects@catalino.me</p>
                 </div>
               </div>
               <div className="flex items-center space-x-4">
                 <Phone className="h-5 w-5 text-green-600" />
                 <div>
                   <p className="font-medium">Phone</p>
-                  <p className="text-gray-500">+1 (555) 123-4567</p>
+                  <p className="text-gray-500">(202) 929-9199</p>
                 </div>
               </div>
               <div className="flex items-center space-x-4">
                 <MapPin className="h-5 w-5 text-red-600" />
                 <div>
                   <p className="font-medium">Location</p>
-                  <p className="text-gray-500">Washington, DC</p>
+                  <p className="text-gray-500">Washington, DC area</p>
                 </div>
               </div>
             </CardContent>
