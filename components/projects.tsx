@@ -15,7 +15,7 @@ const sampleProjects = [
     description:
       "Comprehensive analysis of online retail data to identify sales trends, customer behavior patterns, and revenue optimization opportunities using advanced analytics.",
     technologies: ["Python", "Pandas", "Matplotlib", "SQL", "Tableau"],
-    image: "/ecommerce-sales-dashboard.png",
+    image: "/placeholder.svg?height=300&width=500&text=E-commerce+Sales+Dashboard",
     liveUrl: "https://example.com/project1",
     githubUrl: "https://github.com/example/project1",
   },
@@ -25,7 +25,7 @@ const sampleProjects = [
     description:
       "Machine learning model to predict customer churn using historical data, achieving 85% accuracy with feature importance analysis and actionable insights.",
     technologies: ["Python", "Scikit-learn", "Tableau", "PostgreSQL", "XGBoost"],
-    image: "/customer-churn-model.png",
+    image: "/placeholder.svg?height=300&width=500&text=Customer+Churn+ML+Model",
     liveUrl: "https://example.com/project2",
     githubUrl: "https://github.com/example/project2",
   },
@@ -35,7 +35,7 @@ const sampleProjects = [
     description:
       "Interactive Power BI dashboard for financial KPI tracking, budget analysis, and performance monitoring across multiple departments with real-time updates.",
     technologies: ["Power BI", "DAX", "Excel", "SQL Server", "Azure"],
-    image: "/financial-kpi-dashboard.png",
+    image: "/placeholder.svg?height=300&width=500&text=Financial+KPI+Dashboard",
     liveUrl: "https://example.com/project3",
     githubUrl: "https://github.com/example/project3",
   },
@@ -45,7 +45,7 @@ const sampleProjects = [
     description:
       "Comprehensive EDA framework to explore data structure, identify key characteristics, and uncover potential relationships using statistical methods and visualizations.",
     technologies: ["NumPy", "Pandas", "Plotly", "Seaborn", "Jupyter"],
-    image: "/exploratory-data-analysis.png",
+    image: "/placeholder.svg?height=300&width=500&text=Exploratory+Data+Analysis",
     liveUrl: "https://example.com/project4",
     githubUrl: "https://github.com/example/project4",
   },
@@ -55,7 +55,7 @@ const sampleProjects = [
     description:
       "Interactive Tableau dashboard analyzing Electric Vehicle market trends, charging infrastructure, adoption rates, and geographic distribution patterns.",
     technologies: ["Tableau", "CSV", "Google Sheets", "Design Skills"],
-    image: "/ev-tableau-dashboard.png",
+    image: "/placeholder.svg?height=300&width=500&text=EV+Tableau+Dashboard",
     liveUrl: "https://example.com/project5",
     githubUrl: "https://github.com/example/project5",
   },
@@ -65,7 +65,7 @@ const sampleProjects = [
     description:
       "Comprehensive analysis of Netflix's content library exploring content distribution, genre trends, geographic patterns, and rating insights using Python.",
     technologies: ["NumPy", "Pandas", "Plotly", "Seaborn", "Jupyter"],
-    image: "/netflix-data-analysis.png",
+    image: "/placeholder.svg?height=300&width=500&text=Netflix+Data+Analysis",
     liveUrl: "https://example.com/project6",
     githubUrl: "https://github.com/example/project6",
   },
@@ -75,7 +75,7 @@ const sampleProjects = [
     description:
       "Python-based analytics tool analyzing Instagram engagement metrics, follower growth patterns, post performance, and audience demographics insights.",
     technologies: ["BeautifulSoup", "Pandas", "Matplotlib", "Streamlit"],
-    image: "/instagram-analytics.png",
+    image: "/placeholder.svg?height=300&width=500&text=Instagram+Analytics",
     liveUrl: "https://example.com/project7",
     githubUrl: "https://github.com/example/project7",
   },
@@ -85,7 +85,7 @@ const sampleProjects = [
     description:
       "Machine learning analysis of Spotify track features to predict song popularity, identifying key audio characteristics that drive music success.",
     technologies: ["NumPy", "Pandas", "Scikit-learn", "Spotify API", "Matplotlib"],
-    image: "/spotify-popularity-analysis.png",
+    image: "/placeholder.svg?height=300&width=500&text=Spotify+Popularity+Analysis",
     liveUrl: "https://example.com/project8",
     githubUrl: "https://github.com/example/project8",
   },
@@ -95,7 +95,7 @@ const sampleProjects = [
     description:
       "Strategic sales analysis optimizing Coca-Cola's revenue forecasting, regional performance tracking, and market penetration strategies.",
     technologies: ["NumPy", "Pandas", "Matplotlib", "Seaborn", "Jupyter"],
-    image: "/coca-cola-sales-analysis.png",
+    image: "/placeholder.svg?height=300&width=500&text=Coca+Cola+Sales+Analysis",
     liveUrl: "https://example.com/project9",
     githubUrl: "https://github.com/example/project9",
   },
@@ -105,7 +105,7 @@ const sampleProjects = [
     description:
       "Medical imaging analysis using K-Means clustering for brain tissue segmentation, abnormality detection, and automated medical diagnosis support.",
     technologies: ["NumPy", "Scikit-learn", "Nibabel", "K-Means", "OpenCV"],
-    image: "/brain-scan-kmeans.png",
+    image: "/placeholder.svg?height=300&width=500&text=Brain+Scan+K-Means",
     liveUrl: "https://example.com/project10",
     githubUrl: "https://github.com/example/project10",
   },
@@ -115,7 +115,7 @@ const sampleProjects = [
     description:
       "Natural Language Processing system for automated BBC news categorization, sentiment analysis, and content organization using advanced NLP techniques.",
     technologies: ["NLTK", "Scikit-learn", "DistilBERT", "Pandas", "Matplotlib"],
-    image: "/bbc-news-nlp.png",
+    image: "/placeholder.svg?height=300&width=500&text=BBC+News+NLP",
     liveUrl: "https://example.com/project11",
     githubUrl: "https://github.com/example/project11",
   },
@@ -125,7 +125,7 @@ const sampleProjects = [
     description:
       "Advanced web scraping system enhanced with Large Language Models for intelligent data extraction, parsing, and automated content processing.",
     technologies: ["Scrapy", "GPT-4", "LangChain", "BeautifulSoup", "Python"],
-    image: "/web-scraping-llm.png",
+    image: "/placeholder.svg?height=300&width=500&text=LLM+Web+Scraping",
     liveUrl: "https://example.com/project12",
     githubUrl: "https://github.com/example/project12",
   },
@@ -135,7 +135,7 @@ const sampleProjects = [
     description:
       "Educational analytics system analyzing student performance patterns, identifying at-risk students, and providing data-driven insights for academic improvement.",
     technologies: ["NumPy", "Pandas", "Matplotlib", "Seaborn", "SciPy"],
-    image: "/student-performance-analysis.png",
+    image: "/placeholder.svg?height=300&width=500&text=Student+Performance+Analysis",
     liveUrl: "https://example.com/project13",
     githubUrl: "https://github.com/example/project13",
   },
@@ -145,7 +145,7 @@ const sampleProjects = [
     description:
       "Comprehensive Formula 1 racing database analysis using SQL for driver performance tracking, team statistics, race results, and historical comparisons.",
     technologies: ["SQL", "MySQL", "Tableau", "Python", "Data Modeling"],
-    image: "/f1-racing-sql.png",
+    image: "/placeholder.svg?height=300&width=500&text=F1+Racing+SQL+Analytics",
     liveUrl: "https://example.com/project14",
     githubUrl: "https://github.com/example/project14",
   },
@@ -159,7 +159,7 @@ export function Projects() {
     const project = {
       ...newProject,
       id: projects.length + 1,
-      image: "/exploratory-data-analysis.png",
+      image: "/placeholder.svg?height=300&width=500&text=New+Data+Project",
     }
     setProjects([...projects, project])
   }
@@ -181,16 +181,12 @@ export function Projects() {
         <div className="mx-auto grid max-w-7xl gap-6 py-12 lg:grid-cols-2 xl:grid-cols-3">
           {projects.map((project) => (
             <Card key={project.id} className="overflow-hidden hover:shadow-xl transition-all duration-300 group">
-              <div className="aspect-video bg-gray-100 dark:bg-gray-700 overflow-hidden">
+              <div className="aspect-video bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-700 dark:to-gray-800 overflow-hidden">
                 <img
                   src={project.image || "/placeholder.svg"}
                   alt={`${project.title} - Professional Data Analysis Dashboard`}
                   className="h-full w-full object-cover group-hover:scale-105 transition-transform duration-300"
                   loading="lazy"
-                  onError={(e) => {
-                    const target = e.target as HTMLImageElement
-                    target.src = "/placeholder.svg?height=200&width=400&text=Data+Analysis+Project"
-                  }}
                 />
               </div>
               <CardHeader className="pb-3">
