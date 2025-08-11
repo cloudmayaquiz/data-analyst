@@ -45,9 +45,109 @@ const sampleProjects = [
     description:
       "Comprehensive EDA framework to explore data structure, identify key characteristics, and uncover potential relationships using statistical methods and visualizations.",
     technologies: ["NumPy", "Pandas", "Plotly", "Seaborn", "Jupyter"],
-    image: "/data-analysis-dashboard.png",
+    image: "/exploratory-data-analysis.png",
     liveUrl: "https://example.com/project4",
     githubUrl: "https://github.com/example/project4",
+  },
+  {
+    id: 5,
+    title: "EV Dashboard using Tableau",
+    description:
+      "Interactive Tableau dashboard analyzing Electric Vehicle market trends, charging infrastructure, adoption rates, and geographic distribution patterns.",
+    technologies: ["Tableau", "CSV", "Google Sheets", "Design Skills"],
+    image: "/ev-tableau-dashboard.png",
+    liveUrl: "https://example.com/project5",
+    githubUrl: "https://github.com/example/project5",
+  },
+  {
+    id: 6,
+    title: "Netflix Data Analysis using Python",
+    description:
+      "Comprehensive analysis of Netflix's content library exploring content distribution, genre trends, geographic patterns, and rating insights using Python.",
+    technologies: ["NumPy", "Pandas", "Plotly", "Seaborn", "Jupyter"],
+    image: "/netflix-data-analysis.png",
+    liveUrl: "https://example.com/project6",
+    githubUrl: "https://github.com/example/project6",
+  },
+  {
+    id: 7,
+    title: "Instagram User Analytics using Python",
+    description:
+      "Python-based analytics tool analyzing Instagram engagement metrics, follower growth patterns, post performance, and audience demographics insights.",
+    technologies: ["BeautifulSoup", "Pandas", "Matplotlib", "Streamlit"],
+    image: "/instagram-analytics.png",
+    liveUrl: "https://example.com/project7",
+    githubUrl: "https://github.com/example/project7",
+  },
+  {
+    id: 8,
+    title: "Spotify Track Popularity Analysis",
+    description:
+      "Machine learning analysis of Spotify track features to predict song popularity, identifying key audio characteristics that drive music success.",
+    technologies: ["NumPy", "Pandas", "Scikit-learn", "Spotify API", "Matplotlib"],
+    image: "/spotify-popularity-analysis.png",
+    liveUrl: "https://example.com/project8",
+    githubUrl: "https://github.com/example/project8",
+  },
+  {
+    id: 9,
+    title: "Coca-Cola Sales Analysis",
+    description:
+      "Strategic sales analysis optimizing Coca-Cola's revenue forecasting, regional performance tracking, and market penetration strategies.",
+    technologies: ["NumPy", "Pandas", "Matplotlib", "Seaborn", "Jupyter"],
+    image: "/coca-cola-sales-analysis.png",
+    liveUrl: "https://example.com/project9",
+    githubUrl: "https://github.com/example/project9",
+  },
+  {
+    id: 10,
+    title: "K-Means Brain Scan Analysis",
+    description:
+      "Medical imaging analysis using K-Means clustering for brain tissue segmentation, abnormality detection, and automated medical diagnosis support.",
+    technologies: ["NumPy", "Scikit-learn", "Nibabel", "K-Means", "OpenCV"],
+    image: "/brain-scan-kmeans.png",
+    liveUrl: "https://example.com/project10",
+    githubUrl: "https://github.com/example/project10",
+  },
+  {
+    id: 11,
+    title: "BBC News Classification using NLP",
+    description:
+      "Natural Language Processing system for automated BBC news categorization, sentiment analysis, and content organization using advanced NLP techniques.",
+    technologies: ["NLTK", "Scikit-learn", "DistilBERT", "Pandas", "Matplotlib"],
+    image: "/bbc-news-nlp.png",
+    liveUrl: "https://example.com/project11",
+    githubUrl: "https://github.com/example/project11",
+  },
+  {
+    id: 12,
+    title: "LLM-Enhanced Web Scraping",
+    description:
+      "Advanced web scraping system enhanced with Large Language Models for intelligent data extraction, parsing, and automated content processing.",
+    technologies: ["Scrapy", "GPT-4", "LangChain", "BeautifulSoup", "Python"],
+    image: "/web-scraping-llm.png",
+    liveUrl: "https://example.com/project12",
+    githubUrl: "https://github.com/example/project12",
+  },
+  {
+    id: 13,
+    title: "Student Performance Analysis",
+    description:
+      "Educational analytics system analyzing student performance patterns, identifying at-risk students, and providing data-driven insights for academic improvement.",
+    technologies: ["NumPy", "Pandas", "Matplotlib", "Seaborn", "SciPy"],
+    image: "/student-performance-analysis.png",
+    liveUrl: "https://example.com/project13",
+    githubUrl: "https://github.com/example/project13",
+  },
+  {
+    id: 14,
+    title: "F1 Racing Analytics using SQL",
+    description:
+      "Comprehensive Formula 1 racing database analysis using SQL for driver performance tracking, team statistics, race results, and historical comparisons.",
+    technologies: ["SQL", "MySQL", "Tableau", "Python", "Data Modeling"],
+    image: "/f1-racing-sql.png",
+    liveUrl: "https://example.com/project14",
+    githubUrl: "https://github.com/example/project14",
   },
 ]
 
@@ -59,7 +159,7 @@ export function Projects() {
     const project = {
       ...newProject,
       id: projects.length + 1,
-      image: "/data-project-thumbnail.png",
+      image: "/exploratory-data-analysis.png",
     }
     setProjects([...projects, project])
   }
@@ -70,39 +170,51 @@ export function Projects() {
         <div className="flex flex-col items-center space-y-4 text-center">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Featured Projects</h2>
           <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-            Explore my data analysis projects showcasing various techniques and technologies.
+            Explore my comprehensive data analysis projects showcasing various techniques and technologies across
+            different industries.
           </p>
           <Button onClick={() => setIsUploadOpen(true)} className="mt-4">
             <Plus className="mr-2 h-4 w-4" />
             Add New Project
           </Button>
         </div>
-        <div className="mx-auto grid max-w-6xl gap-6 py-12 lg:grid-cols-2 xl:grid-cols-3">
+        <div className="mx-auto grid max-w-7xl gap-6 py-12 lg:grid-cols-2 xl:grid-cols-3">
           {projects.map((project) => (
-            <Card key={project.id} className="overflow-hidden hover:shadow-lg transition-shadow duration-300">
+            <Card key={project.id} className="overflow-hidden hover:shadow-xl transition-all duration-300 group">
               <div className="aspect-video bg-gray-100 dark:bg-gray-700 overflow-hidden">
                 <img
                   src={project.image || "/placeholder.svg"}
-                  alt={`${project.title} - Data Analysis Dashboard`}
-                  className="h-full w-full object-cover hover:scale-105 transition-transform duration-300"
+                  alt={`${project.title} - Professional Data Analysis Dashboard`}
+                  className="h-full w-full object-cover group-hover:scale-105 transition-transform duration-300"
                   loading="lazy"
+                  onError={(e) => {
+                    const target = e.target as HTMLImageElement
+                    target.src = "/placeholder.svg?height=200&width=400&text=Data+Analysis+Project"
+                  }}
                 />
               </div>
-              <CardHeader>
-                <CardTitle className="line-clamp-1">{project.title}</CardTitle>
-                <CardDescription className="line-clamp-3">{project.description}</CardDescription>
+              <CardHeader className="pb-3">
+                <CardTitle className="line-clamp-1 text-lg font-semibold">{project.title}</CardTitle>
+                <CardDescription className="line-clamp-3 text-sm leading-relaxed">
+                  {project.description}
+                </CardDescription>
               </CardHeader>
-              <CardContent className="space-y-4">
-                <div className="flex flex-wrap gap-2">
-                  {project.technologies.map((tech) => (
-                    <Badge key={tech} variant="secondary" className="text-xs">
+              <CardContent className="space-y-4 pt-0">
+                <div className="flex flex-wrap gap-1.5">
+                  {project.technologies.slice(0, 4).map((tech) => (
+                    <Badge key={tech} variant="secondary" className="text-xs px-2 py-1">
                       {tech}
                     </Badge>
                   ))}
+                  {project.technologies.length > 4 && (
+                    <Badge variant="outline" className="text-xs px-2 py-1">
+                      +{project.technologies.length - 4} more
+                    </Badge>
+                  )}
                 </div>
                 <div className="flex space-x-2">
                   {project.liveUrl && (
-                    <Button size="sm" asChild>
+                    <Button size="sm" className="flex-1" asChild>
                       <Link href={project.liveUrl} target="_blank" rel="noopener noreferrer">
                         <ExternalLink className="mr-2 h-4 w-4" />
                         View Live
@@ -110,7 +222,7 @@ export function Projects() {
                     </Button>
                   )}
                   {project.githubUrl && (
-                    <Button size="sm" variant="outline" asChild>
+                    <Button size="sm" variant="outline" className="flex-1 bg-transparent" asChild>
                       <Link href={project.githubUrl} target="_blank" rel="noopener noreferrer">
                         <Github className="mr-2 h-4 w-4" />
                         Code

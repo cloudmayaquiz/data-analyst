@@ -5,10 +5,11 @@ const skillCategories = [
   {
     title: "Programming Languages",
     skills: [
-      { name: "Python", level: 95 },
+      { name: "Python", level: 90 },
       { name: "SQL", level: 90 },
-      { name: "R", level: 80 },
+      { name: "Google Sheets", level: 95 },
       { name: "JavaScript", level: 70 },
+      { name: "React HTML CSS", level: 70 },
     ],
   },
   {
@@ -17,12 +18,14 @@ const skillCategories = [
       { name: "Pandas", level: 95 },
       { name: "NumPy", level: 90 },
       { name: "Scikit-learn", level: 85 },
+      { name: "Seaborn", level: 75 },
       { name: "TensorFlow", level: 75 },
     ],
   },
   {
     title: "Visualization Tools",
     skills: [
+      { name: "Excel", level: 95 },
       { name: "Tableau", level: 90 },
       { name: "Power BI", level: 85 },
       { name: "Matplotlib", level: 90 },
@@ -32,10 +35,11 @@ const skillCategories = [
   {
     title: "Databases",
     skills: [
-      { name: "PostgreSQL", level: 85 },
-      { name: "MySQL", level: 80 },
+      { name: "MySQL", level: 90 },
+      { name: "PostgreSQL", level: 80 },
       { name: "MongoDB", level: 70 },
       { name: "BigQuery", level: 75 },
+      { name: "Object Storage", level: 90 },
     ],
   },
 ]
