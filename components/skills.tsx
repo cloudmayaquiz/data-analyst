@@ -7,9 +7,9 @@ const skillCategories = [
     skills: [
       { name: "Python", level: 90 },
       { name: "SQL", level: 90 },
-      { name: "Google Sheets", level: 95 },
+      { name: "ReactJS NodeJS", level: 75 },
       { name: "JavaScript", level: 70 },
-      { name: "React HTML CSS", level: 70 },
+      { name: "HTML,CSS,TailwindCSS", level: 70 },
     ],
   },
   {
@@ -19,7 +19,7 @@ const skillCategories = [
       { name: "NumPy", level: 90 },
       { name: "Scikit-learn", level: 85 },
       { name: "API", level: 75 },
-      { name: "Streamlit", level: 75 },
+      { name: "TensorFlow/PyTorch", level: 75 },
     ],
   },
   {
