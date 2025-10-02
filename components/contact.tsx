@@ -53,7 +53,7 @@ export function Contact() {
                 <Phone className="h-5 w-5 text-green-600" />
                 <div>
                   <p className="font-medium">Phone</p>
-                  <p className="text-gray-500">(202) 929-9199</p>
+                  <p className="text-gray-500">(123) 456-7890</p>
                 </div>
               </div>
               <div className="flex items-center space-x-4">

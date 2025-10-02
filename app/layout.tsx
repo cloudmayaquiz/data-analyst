@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "Catalino Ong - Data Analyst Portfolio",
   description:
     "Professional data analyst portfolio showcasing projects, skills, and experience in business intelligence and data science.",
-    generator: 'v0.dev'
+    generator: 'v0.app'
 }
 
 export default function RootLayout({
