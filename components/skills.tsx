@@ -6,7 +6,7 @@ const skillCategories = [
     title: "Programming Languages",
     skills: [
       { name: "Python", level: 90 },
-      { name: "SQL", level: 90 },
+      { name: "SQL", level: 95 },
       { name: "ReactJS NodeJS", level: 75 },
       { name: "JavaScript", level: 70 },
       { name: "HTML,CSS,TailwindCSS", level: 70 },
@@ -23,13 +23,13 @@ const skillCategories = [
     ],
   },
   {
-    title: "Visualization Tools",
+    title: "AI / Visualization",
     skills: [
-      { name: "Excel", level: 95 },
+      { name: "Sheets/Excel", level: 95 },
       { name: "Tableau", level: 90 },
       { name: "Power BI", level: 85 },
       { name: "Matplotlib/Seaborn", level: 90 },
-      { name: "Plotly", level: 80 },
+      { name: "GenAI GPTs LLMs ML", level: 85 },
     ],
   },
   {

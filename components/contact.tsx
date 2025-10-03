@@ -69,7 +69,7 @@ export function Contact() {
           <Card>
             <CardHeader>
               <CardTitle>Send a Message</CardTitle>
-              <CardDescription>{"I'll get back to you as soon as possible."}</CardDescription>
+              <CardDescription>{"I'll get back to you as soon as I'm able."}</CardDescription>
             </CardHeader>
             <CardContent>
               <form onSubmit={handleSubmit} className="space-y-4">
