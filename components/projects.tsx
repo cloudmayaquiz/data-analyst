@@ -10,6 +10,16 @@ import { ProjectUploadDialog } from "./project-upload-dialog"
 
 const sampleProjects = [
   {
+    id: 27,
+    title: "Coffee Chain USA",
+    description:
+      "Help optimize marketing budget, Analyze product performance, Make data-driven decisions, Create actionable insights.",
+    technologies: ["Excel", "CSV", "Tableau", "SQL", "Sheets"],
+    image: "/placeholder.svg?height=300&width=500&text=E-commerce+Sales+Dashboard",
+    liveUrl: "https://example.com/project27",
+    githubUrl: "https://github.com/example/project27",
+  },
+  {
     id: 1,
     title: "E-commerce Sales Analysis",
     description:
