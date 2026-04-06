@@ -12,7 +12,7 @@ export function Hero() {
                 Catalino Ong
             </h1>
             <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
-              Data Analyst & Business Intelligence Specialist
+              AI Data Analyst
             </p>
             <p className="mx-auto max-w-[600px] text-gray-600 dark:text-gray-300">
               Transforming complex data into actionable insights that drive business growth and strategic
